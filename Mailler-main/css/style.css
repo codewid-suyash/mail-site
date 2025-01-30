@@ -67,27 +67,35 @@
 }
 
 .btn.btn-primary {
-    background: var(--bs-primary) !important;
-    color: var(--bs-white) !important;
+    /* background: var(--bs-primary) !important;
+    color: var(--bs-white) !important; */
+    color: white;
+    background-color: rgb(24, 24, 70);
+    border: none;
     font-weight: 400;
     transition: 0.5s;
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-white) !important;
-    color: var(--bs-primary) !important;
+    /* background: var(--bs-white) !important;
+    color: var(--bs-primary) !important; */
+    color: white !important ;
+    background-color: rgb(66, 66, 118) !important;
 }
 
 .btn.btn-light {
-    background: var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    /* background: var(--bs-light) !important;
+    color: var(--bs-primary) !important; */
+    color: white;
+    background-color: rgb(24, 24, 70);
+    border: rgb(24, 24, 70) ;
     font-weight: 400;
     transition: 0.5s;
 }
 
 .btn.btn-light:hover {
-    background: var(--bs-primary) !important;
-    color: var(--bs-light) !important;
+    color: white  ;
+    background-color: rgb(66, 66, 118) ;
 }
 
 
@@ -132,8 +140,12 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(21, 21, 59) !important;
+} 
+/* .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
     color: var(--bs-primary) !important;
-}
+} */
 
 .navbar-light .navbar-brand img {
     max-height: 50px;
@@ -654,9 +666,13 @@
 }
 
 .service .service-item:hover a:hover {
-    background: var(--bs-primary) !important;
-    color: var(--bs-white);
+    /* background: var(--bs-primary) !important; */
+    /* color: var(--bs-white); */
+    color: rgb(35, 35, 69);
 }
+/* .service .btn.btn-light:hover{
+    background-color: black;
+} */
 
 /*** Service End ***/
 
@@ -954,7 +970,8 @@
 }
 .footer .footer-item a {
     line-height: 35px;
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
+    color: rgb(26, 26, 78);
     transition: 0.5s;
 }
 
@@ -964,7 +981,8 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary);
+    /* color: var(--bs-primary); */
+    /* color:rgb(71, 71, 118); */
 }
 
 /*** Footer End ***/
