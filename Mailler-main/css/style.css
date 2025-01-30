@@ -993,3 +993,8 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+a{
+    text-decoration: none;
+  
+}
