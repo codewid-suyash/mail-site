@@ -86,9 +86,8 @@
 .btn.btn-light {
     /* background: var(--bs-light) !important;
     color: var(--bs-primary) !important; */
-    color: rgb(6, 6, 6);
-   
-    border: 20px solid rgb(24, 24, 70) ;
+    color: white;
+    background-color: rgb(24, 24, 70);
     font-weight: 400;
     transition: 0.5s;
 }
