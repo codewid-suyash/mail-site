@@ -80,15 +80,15 @@
     /* background: var(--bs-white) !important;
     color: var(--bs-primary) !important; */
     color: white !important ;
-    background-color: rgb(66, 66, 118) !important;
+    background-color: rgb(145, 145, 188) !important;
 }
 
 .btn.btn-light {
     /* background: var(--bs-light) !important;
     color: var(--bs-primary) !important; */
-    color: white;
-    background-color: rgb(24, 24, 70);
-    border: rgb(24, 24, 70) ;
+    color: rgb(6, 6, 6);
+   
+    border: 20px solid rgb(24, 24, 70) ;
     font-weight: 400;
     transition: 0.5s;
 }
@@ -963,7 +963,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05));
+    background: linear-gradient(rgba(35, 17, 236, 0.116), rgba(103, 16, 242, 0.122));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -981,8 +981,8 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    /* color: var(--bs-primary); */
-    /* color:rgb(71, 71, 118); */
+    color: var(--bs-primary);
+    color:rgb(71, 71, 118);
 }
 
 /*** Footer End ***/
@@ -993,3 +993,8 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+a{
+    text-decoration: none;
+  
+}
