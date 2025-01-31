@@ -107,6 +107,10 @@
     position: relative;
     animation: RotateMoveLeft 10s linear infinite;
 }
+.navbar-toggler{
+    border: rgb(24, 24, 70);
+    color: rgb(24, 24, 70);
+}
 
 @keyframes RotateMoveLeft {
     0%   {left: 0px;}
@@ -229,8 +233,9 @@
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        /* border: 1px solid var(--bs-primary);
+        color: var(--bs-primary); */
+        border:1px solid rgb(24, 24, 70);
     }
 
     .navbar-light .navbar-collapse {
