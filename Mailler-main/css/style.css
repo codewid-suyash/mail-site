@@ -667,8 +667,8 @@
 .service .service-item:hover .service-icon,
 .service .service-item:hover a {
     /* background: var(--bs-white) !important; */
-    color: white;
-    background-color: rgb(24, 24, 70);
+    background-color: rgb(35, 35, 69);
+    
 }
 
 .service .service-item:hover a:hover {
@@ -677,7 +677,8 @@
     color: rgb(35, 35, 69);
 }
 .service .btn.btn-light:hover{
-    background-color: black;
+    background-color: white;
+    color: aliceblue;
 }
 
 /*** Service End ***/
@@ -987,7 +988,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    /* color: var(--bs-primary); */
+    color: var(--bs-primary);
     color:rgb(71, 71, 118);
 }
 
